@@ -4,22 +4,22 @@ vSlider
 
 __IE8+, Webkit, Gecko__
 
-Quick start:
-------------
+###Quick start:
+
 ```
 $(function(){
 	$(selector).vSlider();
 });
 ```
 
-Setting:
---------
+###Setting:
+
 __startSlider:   0 (default)__, number of presentation which should begin;
 
 __settingSelector: '.sliderSetting' (default)__, selector to the presentation settings
 
-Notes:
-------
+###Notes:
+
 HTML Structure for fadeIn item into slide:
 ```
 <tag class="hideItemContainer">
@@ -33,8 +33,8 @@ HTML Structure for fadeIn item into slide:
 </tag>
 ```
 
-Control:
---------
+###Control:
+
 ```
 39: right arrow
 32: space
