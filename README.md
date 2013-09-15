@@ -1,6 +1,6 @@
 vSlider
 =======
-######jQuery plugin for presentations
+#####jQuery plugin for presentations
 
 ###Support: 
 
