@@ -1,7 +1,7 @@
 vSlider
 =======
 
-###Presentation jQuery plugin
+##Presentation jQuery plugin
 
 ####Support: 
 
@@ -17,7 +17,7 @@ $(function(){
 
 Setting:
 --------
-__startSlider:   0 (default)__, number of presentation which should begin;␣␣
+__startSlider:   0 (default)__, number of presentation which should begin;
 
 __settingSelector: '.sliderSetting' (default)__, selector to the presentation settings
 
