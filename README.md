@@ -1,5 +1,7 @@
 vSlider
 =======
+jQuery plugin for presentations
+
 ###Support: 
 
 __IE8+, Webkit, Gecko__
