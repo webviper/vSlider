@@ -1,0 +1,21 @@
+.slider_current {
+	top: 0;
+}
+.slider_next {
+	top: 100%;
+}
+.slider_prev {
+	top: -100%;
+}
+.slide_current {
+	left: 0;
+}
+.slide_next {
+	left: 100%;
+}
+.slide_prev {
+	left: -100%;
+}
+.hideSetting {
+	background: #FFF;
+}

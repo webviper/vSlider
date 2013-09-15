@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>vSlider</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+	<div class="sliderContainer">
+		<section class="slider">
+			<h1 class="slider-title">Presentation 1</h1>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Пока Элон Маск мечтает, Япония делает самый быстрый поезд в мире</h1>			
+				<img src="images/image1.jpg" alt="самый быстрый поезд в мире" />
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 2</h1>
+				<ul class="hideItemContainer">
+					<li class="hide">
+						item 1
+					</li>
+					<li class="hide">
+						item 2
+					</li>
+					<li class="hide">
+						item 3
+					</li>
+				</ul>
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 3</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 4</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 5</h1>			
+			</article>
+		</section>
+	
+		<section class="slider">
+			<h1 class="slider-title">Presentation 2</h1>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 1</h1>	
+				<p>Позавчера на неопределённый срок была отложена петиция об ограничении стоимости автомобилей при госзакупках. Следующая на очереди — петиция с требованием отменить 187-ФЗ, закон о произвольных блокировках интернет-ресурсов.</p>
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 2</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 3</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 4</h1>			
+			</article>
+		</section>
+
+		<section class="slider">
+			<h1 class="slider-title">Presentation 3</h1>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 1</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 2</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 3</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 4</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 5</h1>			
+			</article>
+			<article class="slider-slide">
+				<h1 class="slider-slide-title">Slide 6</h1>			
+			</article>
+		</section>
+	</div>
+	
+	<div class="sliderSetting">
+		<span class="sliderIndex" role="button" tabindex="1">
+			<span class="sliderIndex-current" title="select presentation"></span>
+		</span>
+		<span class="slideIndex"></span>
+		<span role="button" tabindex="0" class="hideSetting" title="Hide Setting"></span>
+		<nav class="sliderSetting-nav">
+			<span role="button" tabindex="0" class="nextSlide" title="go to next slide"></span>
+			<span role="button" tabindex="0" class="prevSlide" title="go to previous slide"></span>
+			<span role="button" tabindex="0" class="nextSlider" title="go to next presentation"></span>
+			<span role="button" tabindex="0" class="prevSlider" title="go to previous presentation"></span>
+		</nav>
+	</div>
+	
+	<script src="js/vSlider.js"></script>
+	<script>
+		$(function(){
+			$('.sliderContainer').vSlider();
+		});
+	</script>
+	<link href="css/general.css" rel="stylesheet" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet'>
+	<!--[if lt IE 10]>
+		<link href="css/ie.css" rel="stylesheet" media="all" />
+	<![endif]-->
+</body>
+</html>
