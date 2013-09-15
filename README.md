@@ -1,9 +1,6 @@
 vSlider
 =======
-
-##Presentation jQuery plugin
-
-####Support: 
+###Support: 
 
 __IE8+, Webkit, Gecko__
 
