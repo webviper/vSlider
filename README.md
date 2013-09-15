@@ -7,7 +7,7 @@ Support: IE8+, Webkit, Gecko
 
 Quick start:
 $(function(){
-		$(selector).vSlider();
+	$(selector).vSlider();
 });
 
 Setting:
